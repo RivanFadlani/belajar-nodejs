@@ -1,0 +1,617 @@
+
+{
+  "header": {
+    "reportVersion": 5,
+    "event": "JavaScript API",
+    "trigger": "API",
+    "filename": "laporan.json",
+    "dumpEventTime": "2026-08-15T15:59:56Z",
+    "dumpEventTimeStamp": "1786784396351",
+    "processId": 34987,
+    "threadId": 0,
+    "cwd": "/home/ripunn/Development/belajar-nodejs/belajar-nodejs-dasar",
+    "commandLine": [
+      "node",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v24.19.0",
+    "glibcVersionRuntime": "2.43",
+    "glibcVersionCompiler": "2.28",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "acorn": "8.17.0",
+      "ada": "3.4.4",
+      "amaro": "1.1.10",
+      "ares": "1.34.6",
+      "brotli": "1.2.0",
+      "cldr": "48.0",
+      "icu": "78.3",
+      "llhttp": "9.4.3",
+      "merve": "1.2.2",
+      "modules": "137",
+      "napi": "10",
+      "nbytes": "0.1.4",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.69.0",
+      "nghttp3": "",
+      "ngtcp2": "",
+      "node": "24.19.0",
+      "openssl": "3.5.7",
+      "simdjson": "4.6.4",
+      "simdutf": "6.4.0",
+      "sqlite": "3.53.3",
+      "tz": "2026b",
+      "undici": "7.29.0",
+      "unicode": "17.0",
+      "uv": "1.52.1",
+      "uvwasi": "0.0.23",
+      "v8": "13.6.233.17-node.51",
+      "zlib": "1.3.2.1-motley-3246f1b",
+      "zstd": "1.5.7"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Krypton",
+      "headersUrl": "https://nodejs.org/download/release/v24.19.0/node-v24.19.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v24.19.0/node-v24.19.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "7.1.8-200.fc44.x86_64",
+    "osVersion": "#1 SMP PREEMPT_DYNAMIC Mon Aug 10 03:35:23 UTC 2026",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 4142,
+        "user": 320920,
+        "nice": 3200,
+        "sys": 125140,
+        "idle": 6179440,
+        "irq": 28190
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 4142,
+        "user": 245820,
+        "nice": 2600,
+        "sys": 82230,
+        "idle": 6351150,
+        "irq": 17360
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 4144,
+        "user": 378370,
+        "nice": 4890,
+        "sys": 135010,
+        "idle": 6079410,
+        "irq": 69700
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 4142,
+        "user": 242920,
+        "nice": 3520,
+        "sys": 85690,
+        "idle": 6359490,
+        "irq": 17790
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 4147,
+        "user": 236970,
+        "nice": 560,
+        "sys": 104240,
+        "idle": 6319970,
+        "irq": 24040
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 4144,
+        "user": 82440,
+        "nice": 190,
+        "sys": 52690,
+        "idle": 6567930,
+        "irq": 13580
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 3931,
+        "user": 153540,
+        "nice": 200,
+        "sys": 81000,
+        "idle": 6448090,
+        "irq": 24440
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 3822,
+        "user": 44920,
+        "nice": 40,
+        "sys": 29430,
+        "idle": 6642850,
+        "irq": 7340
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 3296,
+        "user": 155790,
+        "nice": 240,
+        "sys": 76620,
+        "idle": 6454750,
+        "irq": 18340
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 3312,
+        "user": 56870,
+        "nice": 110,
+        "sys": 43870,
+        "idle": 6589560,
+        "irq": 23290
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 3309,
+        "user": 103720,
+        "nice": 100,
+        "sys": 70070,
+        "idle": 6517130,
+        "irq": 19040
+      },
+      {
+        "model": "AMD Ryzen 5 5600H with Radeon Graphics",
+        "speed": 1108,
+        "user": 32430,
+        "nice": 40,
+        "sys": 27740,
+        "idle": 6658430,
+        "irq": 6880
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "f6:04:f8:b7:11:a0",
+        "address": "192.168.18.15",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "f6:04:f8:b7:11:a0",
+        "address": "2404:8000:1439:401:491f:af01:f76b:325a",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlo1",
+        "internal": false,
+        "mac": "f6:04:f8:b7:11:a0",
+        "address": "fe80::3188:b239:e006:5196",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "fedora"
+  },
+  "javascriptStack": {
+    "message": "Error: Wadduhh!",
+    "stack": [
+      "at file:///home/ripunn/Development/belajar-nodejs/belajar-nodejs-dasar/report.mjs:8:9",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:439:25)",
+      "at async node:internal/modules/esm/loader:643:26"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6549504,
+    "executableMemory": 524288,
+    "totalCommittedMemory": 6561792,
+    "availableMemory": 2344945568,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2528,
+    "usedMemory": 4903456,
+    "memoryLimit": 2348810240,
+    "mallocedMemory": 172128,
+    "externalMemory": 1873648,
+    "peakMallocedMemory": 262232,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 790528,
+        "capacity": 1048512,
+        "used": 640240,
+        "available": 408272
+      },
+      "old_space": {
+        "memorySize": 3026944,
+        "committedMemory": 3145728,
+        "capacity": 3022760,
+        "used": 2972288,
+        "available": 50472
+      },
+      "code_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 524224,
+        "used": 40832,
+        "available": 483392
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_space": {
+        "memorySize": 1683456,
+        "committedMemory": 1835008,
+        "capacity": 1682120,
+        "used": 987936,
+        "available": 694184
+      },
+      "shared_trusted_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1048512,
+        "used": 0,
+        "available": 1048512
+      },
+      "large_object_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00000000009f67f4",
+      "symbol": "node::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x00000000009f6df7",
+      "symbol": "node::TriggerNodeReport(node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x00000000009fb63e",
+      "symbol": "node::report::WriteReport(v8::FunctionCallbackInfo<v8::Value> const&) [node]"
+    },
+    {
+      "pc": "0x00007f945fdcf08d",
+      "symbol": ""
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 8425689088,
+    "total_memory": 14483070976,
+    "rss": 52252672,
+    "constrained_memory": 18446744073709551615,
+    "available_memory": 8425689088,
+    "userCpuSeconds": 0.018562,
+    "kernelCpuSeconds": 0.012645,
+    "cpuConsumptionPercent": 3.1207,
+    "userCpuConsumptionPercent": 1.8562,
+    "kernelCpuConsumptionPercent": 1.2645,
+    "maxRss": 52252672,
+    "pageFaults": {
+      "IORequired": 0,
+      "IONotRequired": 3632
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 88
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.01778,
+    "kernelCpuSeconds": 0.011797,
+    "cpuConsumptionPercent": 2.9577,
+    "userCpuConsumptionPercent": 1.778,
+    "kernelCpuConsumptionPercent": 1.1797,
+    "fsActivity": {
+      "reads": 0,
+      "writes": 88
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000007a02a70"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000006afab00"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000000007a758c8",
+      "repeat": 0,
+      "firesInMsFromNow": -6734433,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000007a75960"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000007a759d8"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000007a75a50"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000007a75ac8"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000007a75b40"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000007a80d00",
+      "width": 187,
+      "height": 41,
+      "fd": 20,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000007ab31f8",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000007a81010",
+      "width": 187,
+      "height": 41,
+      "fd": 22,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000007a81290",
+      "width": 187,
+      "height": 41,
+      "fd": 23,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x0000000006b0daa0",
+      "loopIdleTimeSeconds": 0
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "DEBUGINFOD_IMA_CERT_PATH": "/etc/keys/ima:",
+    "DEBUGINFOD_URLS": "ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore ",
+    "DESKTOP_SESSION": "niri",
+    "DESKTOP_STARTUP_ID": "iARtKI9nZghF0aFPB2DN9Y5YpgFGXSEV",
+    "DISPLAY": ":0",
+    "EDITOR": "nvim",
+    "GDMSESSION": "niri",
+    "GDM_LANG": "en_US.UTF-8",
+    "HISTCONTROL": "ignoredups",
+    "HISTSIZE": "50000",
+    "HOME": "/home/ripunn",
+    "HOSTNAME": "fedora",
+    "INVOCATION_ID": "20190f0435074fa5baf0ee29b86f97e4",
+    "JOURNAL_STREAM": "10:36132",
+    "LANG": "en_US.UTF-8",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "LOGNAME": "ripunn",
+    "MAIL": "/var/spool/mail/ripunn",
+    "MANAGERPID": "2842",
+    "MANAGERPIDFDID": "29035",
+    "MEMORY_PRESSURE_WATCH": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/niri.service/memory.pressure",
+    "MEMORY_PRESSURE_WRITE": "c29tZSAyMDAwMDAgMjAwMDAwMAA=",
+    "MOZ_GMP_PATH": "/usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed",
+    "NIRI_SOCKET": "/run/user/1000/niri.wayland-1.3088.sock",
+    "OLDPWD": "/home/ripunn/Development/belajar-nodejs/belajar-nodejs-dasar",
+    "PATH": "/home/ripunn/.nvm/versions/node/v24.19.0/bin:/home/ripunn/.local/bin:/home/ripunn/.opencode/bin:/home/ripunn/.local/bin:/usr/local/bin:/usr/bin:/home/ripunn/.spicetify",
+    "PWD": "/home/ripunn/Development/belajar-nodejs/belajar-nodejs-dasar",
+    "SHELL": "/usr/bin/zsh",
+    "SHLVL": "2",
+    "SYSTEMD_EXEC_PID": "3088",
+    "USER": "ripunn",
+    "USERNAME": "ripunn",
+    "WAYLAND_DISPLAY": "wayland-1",
+    "XCURSOR_SIZE": "24",
+    "XCURSOR_THEME": "default",
+    "XDG_CURRENT_DESKTOP": "niri",
+    "XDG_DATA_DIRS": "/home/ripunn/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XDG_SEAT": "seat0",
+    "XDG_SESSION_CLASS": "user",
+    "XDG_SESSION_DESKTOP": "niri",
+    "XDG_SESSION_EXTRA_DEVICE_ACCESS": "render:accel",
+    "XDG_SESSION_ID": "2",
+    "XDG_SESSION_TYPE": "wayland",
+    "XDG_VTNR": "2",
+    "_": "/home/ripunn/.nvm/versions/node/v24.19.0/bin/node",
+    "KITTY_WINDOW_ID": "2",
+    "TERM": "xterm-kitty",
+    "COLORTERM": "truecolor",
+    "KITTY_PID": "5730",
+    "KITTY_PUBLIC_KEY": "1:;Z_{s){hswcy=P(wh*A!$r~nrl_o;=><(FF^2qX8",
+    "TERMINFO": "/usr/lib64/kitty/terminfo",
+    "KITTY_INSTALLATION_DIR": "/usr/lib64/kitty",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.m4a=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.oga=01;36:*.opus=01;36:*.spx=01;36:*.xspf=01;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:",
+    "GPG_TTY": "/dev/pts/1",
+    "ZSH": "/home/ripunn/.oh-my-zsh",
+    "BAT_THEME": "Dracula",
+    "PAGER": "less",
+    "LESS": "-R",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "STARSHIP_CONFIG": "/home/ripunn/.config/starship/starship.toml",
+    "STARSHIP_SHELL": "zsh",
+    "STARSHIP_SESSION_KEY": "6434253238981956",
+    "NVM_DIR": "/home/ripunn/.nvm",
+    "NVM_CD_FLAGS": "-q",
+    "NVM_BIN": "/home/ripunn/.nvm/versions/node/v24.19.0/bin",
+    "NVM_INC": "/home/ripunn/.nvm/versions/node/v24.19.0/include/node"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 8388608,
+      "hard": 8388608
+    },
+    "max_memory_size_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 524288,
+      "hard": 524288
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 54506,
+      "hard": 54506
+    },
+    "virtual_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib64/libdl.so.2",
+    "/lib64/libstdc++.so.6",
+    "/lib64/libm.so.6",
+    "/lib64/libgcc_s.so.1",
+    "/lib64/libpthread.so.0",
+    "/lib64/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
